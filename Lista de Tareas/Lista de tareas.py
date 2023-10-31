@@ -16,6 +16,7 @@ while res:
         preg=int(input("Desea volver al menu principal? 1(si) 2(no)"))
 
         if preg !=1:
+            print("Hasta la proxima")
             res=False
 
     elif opc==2:
@@ -34,6 +35,7 @@ while res:
         preg=int(input("Desea volver al menu principal? 1(si) 2(no)"))
 
         if preg !=1:
+            print("Hasta la proxima")
             res=False
     
     elif opc==3:
@@ -49,6 +51,8 @@ while res:
         preg=int(input("Desea volver al menu principal? 1(si) 2(no)"))
 
         if preg !=1:
+            print("Hasta la proxima")
             res=False
+            
     else:
         print("Opcion no valida")
